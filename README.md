@@ -71,3 +71,38 @@ Treat your graph as undirected and unweighted, and work on the resulting largest
 Create a third score by adding a column with the sum of the two indices. [NB: the arithmetic mean should be computed after rescaling each column between 0 and 1.
 
 For each of the 3 scores, identify as missing links the node pairs yielding the largest 5/10 values. Briefly comment the results.
+
+Week 9-10
+Week 9
+
+Depending on what seems more appropriate in your graph, pick one of the following
+random graph
+
+a) Erdős–Rényi,
+
+b) Uniform Attachment,
+
+c) Preferential attachment,
+
+d) One variant of any of the previous model invented by you (best option)
+
+Using this method, choose the correct parameters to create a graph that has the correct number of nodes and the correct average degree. Compare at least one other
+caracteristics (average clustering, degree distributions, transitivity, average distance from one
+node, or diameter, any centrality distribution,...). and comment the results.
+
+ 
+Week 10
+a) Depending on what seems more relevant in your graph. Write the code for one of the
+following alternative model:
+- Threshold model synchroneous,
+- Threshold model asynchroneous (random order),
+- Fractional Threshold model synchroneous,
+- Fractional Threshold model (random order).
+- Independent Cascade model,
+- Bass contagion model,
+- SIS model,
+- A variant that seems pertinent in your graph.
+
+
+b) Investigate different scenario of outbreak in your graph (different size of outbreaks,
+different origins, different parameters).
